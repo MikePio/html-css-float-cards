@@ -23,8 +23,13 @@ h1{
 
 
 
-header div{
-  text-align: center;
+header{
+  /* text-align: center; */
+
+  /* padding: auto; */
+
+  /* ! soluzione provvisoria */
+  padding-right: 35px;
 
   margin: 10px auto;
   width: 1170px;
@@ -38,10 +43,10 @@ main{
   margin: 10px auto;
 }
 
-/* .container {
+.container {
   width: 1170px;
   margin: 10px auto;
-} */
+}
 
 .clearfix::after{
   content: '';
@@ -55,16 +60,26 @@ main{
 
   margin: 15px;
   width: calc(90%/3);
+  /*! width: 30%; */
   height: 100px;
   float: left;
 
+  border-radius: 10px;   /*? extra: non richiesto dall'esercizio */
 }
+
+/* ! .card:last-child{
+  margin-right: 0px;
+}
+
+.card:first-child{
+  margin-left: 0px;
+} */
 
 
 .little_container{
   text-align: left;
   padding: 5px;
-  padding-right: 30px;
+  /* padding-right: 30px; */
 
 }
 
@@ -83,6 +98,8 @@ div img{
   max-height: 100px;
   float: left;
   margin-right: 10px;
+
+  border-radius: 10px;   /*? extra: non richiesto dall'esercizio */
 }
 
 
