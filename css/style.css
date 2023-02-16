@@ -11,12 +11,9 @@ body{
 
 
   text-align: center;
-  width: 1170px;
-  margin: 10px auto;
 }
 
 h1{
-  text-align: center;
   font-weight: 800;
   color: #E53170;
   margin: 40px;
@@ -28,16 +25,23 @@ h1{
 
 header div{
   text-align: center;
-  margin: 30px;
+
+  margin: 10px auto;
+  width: 1170px;
+
 }
 
 /* * MAIN */
 
-
-.container{
-  
-  
+main{
+  width: 1170px;
+  margin: 10px auto;
 }
+
+/* .container {
+  width: 1170px;
+  margin: 10px auto;
+} */
 
 .clearfix::after{
   content: '';
@@ -46,11 +50,11 @@ header div{
 }
 
 .card{
-  background-color: rgb(255, 255, 255);
-  box-shadow: 1px 1px 1px 1px #888888;
+  background-color: #0f0e17;
+  box-shadow: 2px 2px 2px 2px #888888;
 
-  margin: 30px;
-  width: calc(80%/3);
+  margin: 15px;
+  width: calc(90%/3);
   height: 100px;
   float: left;
 
@@ -59,12 +63,19 @@ header div{
 
 .little_container{
   text-align: left;
-  padding: 10px;
+  padding: 5px;
+  padding-right: 30px;
 
 }
 
 .little_container > *{
   padding: 4px;
+  color: white;
+}
+
+.little_container a{
+  color: #51C4EF;
+  text-decoration: none;
 }
 
 div img{
