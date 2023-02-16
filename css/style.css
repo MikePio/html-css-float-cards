@@ -5,6 +5,8 @@
 }
 
 body{
+  background-color: rgb(255, 255, 255);
+
   font-family: 'Fredoka', sans-serif;
 
 
@@ -20,25 +22,56 @@ h1{
   margin: 40px;
 }
 
+/* * Header */
+
+
 
 header div{
   text-align: center;
   margin: 30px;
 }
 
+/* * MAIN */
+
+
 .container{
+  
+  
+}
 
-
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .card{
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px 1px #888888;
 
   margin: 30px;
   width: calc(80%/3);
-  height: 40px;
+  height: 100px;
   float: left;
 
+}
+
+
+.little_container{
+  text-align: left;
+  padding: 10px;
+
+}
+
+.little_container > *{
+  padding: 4px;
+}
+
+div img{
+  max-width: 100px;
+  max-height: 100px;
+  float: left;
+  margin-right: 10px;
 }
 
 
